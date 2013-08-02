@@ -10,11 +10,13 @@ max-width: 1200px;
 display: block;
 float: right;
 margin: 0 1em;
-padding: 0.5em;
+margin-right: 2%;
+width: 25%;
 }
 #bienvenida h2
 {
 color: #434343;
+
 }
 #bienvenida #registro
 {
@@ -27,8 +29,7 @@ text-decoration: none;
 text-align: center;
 border-radius: 0.2em;
 }
-#contenido .item:first-of-type
+#contenido
 {
-width: 55%;
-}
+	width: 70%;
 }
