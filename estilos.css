@@ -72,7 +72,8 @@ header #avatar figcaption:after
 {
 font-family: "icomoon";
 font-size: 0.7em;
-content: "\e001";
+content: "\e000";
+opacity: 0.5;
 }
 header #avatar img
 {
@@ -113,26 +114,27 @@ background: #22BCE0;
 }
 nav #flechita_nav a
 {
+
 padding: 0.5em 0.5em;
 text-decoration: none;
 }
 nav #flechita_nav a:after
 {
-content: "\e002";
+content: "\e005";
 font-family: "icomoon";
-font-size: 0.7em;
+opacity: 0.5;
 }
 nav #publicar_nav
 {
 background: #DD4F24;
 float: right;
 margin-right: 0;
-padding-right: 1.5em;
+padding-right: 1em;
 position: relative;
 }
 nav #publicar_nav:after
 {
-display: block;
+
 color: rgba(255,255,255,0.5);
 content: "\e004";
 font-family: "icomoon";
@@ -167,6 +169,16 @@ color: white;
 margin: 0 0 0 2em;
 padding: 4px;
 text-decoration: none;
+position: relative;
+}
+#contenido .datos_item .comentarios_item:after
+{
+	color: #878787;
+	content: "\e000";
+	font-family: "icomoon";
+	position: absolute;
+	top: 80%;
+	left: 50%;
 }
 #contenido .datos_item .guardar_item
 {
@@ -239,14 +251,16 @@ text-decoration: none;
 #contenido .item .votacion .up:after
 {
 font-family: "icomoon";
+font-size: 1.5em;
+vertical-align: bottom;
 }
 #contenido .item .votacion .down:after
 {
 color: red;
-content: "\e001";
+content: "\e000";
 }
 #contenido .item .votacion .up:after
 {
 color: green;
-content: "\e000";
+content: "\e001";
 }
